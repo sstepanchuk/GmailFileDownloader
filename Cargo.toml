@@ -11,7 +11,7 @@ async-std = "1.13.0"
 anyhow = "1.0.95"
 futures = "0.3.31"
 
-async-imap = { path = "./async-imap" }
+async-imap = "0.10.2"
 mailparse = "0.15.0"
 dialoguer = "0.11.0"
 serde = { version = "1.0.217", features = ["derive"] }

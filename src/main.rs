@@ -1,5 +1,5 @@
 use std::path::PathBuf;
-use anyhow::{Result};
+use anyhow::Result;
 use async_imap::{self, Session};
 use async_native_tls::{self, TlsStream};
 use futures::TryStreamExt;
